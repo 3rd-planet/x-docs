@@ -1,9 +1,12 @@
 {
-  "index": "Introduction",
-  "overview": "Overview",
-  "cli": "CLI",
-  "deployment": "Deployment",
-  "roadmap": "Roadmap",
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  },
   "contributors": {
     "title": "Contributors",
     "type": "page"
