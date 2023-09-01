@@ -52,9 +52,9 @@ c-24 0 -30 -5 -33 -25 -4 -35 -22 -36 -26 -2 -4 36 -21 35 -28 -3 -4 -16 -10
 -34 -24 -6 -5 21 -12 25 -42 25 l-36 0 8 -37z"/>
                 </g>
             </svg>
-        )
+        ),
     },
-    docsRepositoryBase: 'https://github.com/3rd-planet/framework-x/tree/master/docs/',
+    docsRepositoryBase: 'https://github.com/3rd-planet/x-docs/blob/main',
     useNextSeoProps() {
         return {
             titleTemplate: '%s - Framework X',
@@ -66,6 +66,7 @@ c-24 0 -30 -5 -33 -25 -4 -35 -22 -36 -26 -2 -4 36 -21 35 -28 -3 -4 -16 -10
             <meta property="og:title" content="3rd Planet's Framework X"/>
             <meta property="og:description"
                   content="Framework x is all about substance over style! 3rd Planet's Framework X is like a well-oiled machine for API development, powered by Node.js and Express"/>
+            <link rel="shortcut icon" href="/favicon.ico" />
         </>
     ),
     banner: {
