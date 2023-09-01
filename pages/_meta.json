@@ -10,10 +10,5 @@
   "contributors": {
     "title": "Contributors",
     "type": "page"
-  },
-  "github_link": {
-    "title": "GitHub",
-    "href": "https://github.com/3rd-planet/framework-x",
-    "type": "page"
   }
 }

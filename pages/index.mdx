@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {useState, useEffect} from "react";
+import Head from "next/head";
 export default function Home() {
 
     /*const [features] = useState([
@@ -12,6 +12,9 @@ export default function Home() {
     ])*/
 
     return (<>
+            <Head>
+                <title>Framework X - Your Accelerated Path to API Creation</title>
+            </Head>
             <div
                 className="mx-auto flex flex-col items-center text-center xl:max-w-3xl">
                 <img className="mb-8 dark:invert" src={'/frameworkx.png'} alt="Framework X Logo"/>
