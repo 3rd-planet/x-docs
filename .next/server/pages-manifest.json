@@ -1,9 +1,0 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/contributors": "pages/contributors.js",
-  "/overview/repositories": "pages/overview/repositories.js",
-  "/overview/opinionated-project-template": "pages/overview/opinionated-project-template.js"
-}
