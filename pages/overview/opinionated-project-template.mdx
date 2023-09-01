@@ -1,0 +1,279 @@
+import Support from '../../components/Support.md'
+
+Framework X is a meticulously designed solution to kickstart your project. With predefined best practices and structures. Embrace our expert recommendations or customize. Either way, you're set up for success, saving time and ensuring quality from the get-go
+
+```
+/
+├── controllers
+│   └── index.controller.js
+├── helpers
+│   └── methods.js
+├── http
+│   └── index.http
+├── index.js
+├── log
+│   ├── access
+│   └── error
+├── middlewares
+│   ├── error.middleware.js
+│   ├── logger.middleware.js
+│   └── validators
+│       └── index.validations.js
+├── package-lock.json
+├── package.json
+├── routes
+│   └── api.js
+├── server.js
+├── tests
+│   ├── index.fail.validation.test.js
+│   ├── index.get.test.js
+│   └── index.post.test.js
+└── x
+```
+
+| File/Directory Name    | Description                                                                                                                                                                        |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| controllers            | The controller directory. it contains all the controller files. Nested directories are also supported.                                                                             |
+| helpers                | Any sort of helpers required by the project are contained in this directory. By default, it comes with methods.js with some handy methods.                                         |
+| http                   | This directory contains the **.http** files. You can find more details about .http files [here](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0) |
+| log                    | Stores access and error logs by date.                                                                                                                                              |
+| middlewares            | This directory contains all the middleware. Framework X comes with some default middleware which we will discuss in detail in further documentation.                               |
+| middlewares.validators | This directory contains request validators. Framework X uses [express-validator](https://express-validator.github.io/docs/) under the hood.                                        |
+| routes                 | This directory contains all the API routes. You can find more details about [Express Routes here](https://expressjs.com/en/guide/routing.html).                                    |
+| tests                  | This is the "tests" directory                                                                                                                                                      |
+| index.js               | Creates the Application instance with [ExpressJS](https://expressjs.com/)                                                                                                          |
+| server.js              | Created Server from the app instance provided by index.js. "server.js" is the entry point for Framework X                                                                          |
+| x                      | CLI access point.                                                                                                                                                                  |
+
+## helpers/methods.js
+
+This file contains some handy methods that can be used throughout the project. It is a good practice to keep all the helper methods in this file. You can add more methods as per your project requirements.
+
+### successResponse
+
+This method is used to send a success response to the client.
+
+```js
+/**
+ *
+ * @param message
+ * @param payload
+ * @param statusCode
+ * @returns {
+ *     {
+ *     message: *,
+ *     status: boolean,
+ *     status_code: number,
+ *     package: *
+ *     }
+ * }
+ * @example
+ *  const { successResponse } = require("../helpers/methods")
+ *  res.status(200).json(successResponse("User created successfully", user, 200))
+ */
+exports.successResponse = (message, payload, statusCode = 200) => {
+    return {
+        status: true,
+        status_code: statusCode,
+        message: message,
+        package: payload
+    }
+}
+```
+
+### failResponse
+
+This method is used to send an error response to the client.
+
+```js
+/**
+ *
+ * @param message
+ * @param payload
+ * @param statusCode
+ * @returns {
+ *     {
+ *     message: *,
+ *     status: boolean,
+ *     status_code: number,
+ *     package: *
+ *     }
+ * }
+ * @example
+ *  const { failResponse } = require("../helpers/methods")
+ *  res.status(400).json(failResponse("Validation failed", errors.array(), 400))
+ *
+ * */
+exports.failResponse = (message, payload = null, statusCode = 400) => {
+    let response = {
+        status: false,
+        status_code: statusCode,
+        message: message
+    }
+
+    if (payload) {
+        response.payload = payload
+    }
+
+    return response
+}
+```
+
+### validate
+
+This method is used to validate the request. It uses [express-validator](https://express-validator.github.io/docs/) under the hood.
+
+```js
+/**
+ * sequential processing, stops running validations chain if the previous one have failed.
+ * @param validations
+ * @returns {function(*=, *=, *): Promise<*>}
+ * @example
+ *  const { validate } = require("../helpers/methods")
+ *  const { indexValidator } = require("../middlewares/validators/index.validations")
+ *  router.post("/", validate(indexValidator), IndexController.indexPost)
+ */
+exports.validate = (validations) => {
+    return async (req, res, next) => {
+        for (let validation of validations) {
+            const result = await validation.run(req)
+            if (result.errors.length) break
+        }
+
+        const errors = validationResult(req)
+        if (errors.isEmpty()) {
+            return next()
+        }
+
+        res.status(parseInt(process.env.VALIDATION_FAIL_CODE)).json(
+            this.failResponse("Validation failed", errors.array())
+        )
+    }
+}
+```
+
+## middlewares
+
+This directory contains all the middleware. Framework X comes with 2 default middleware menthioned below.
+1. logger.middleware.js
+2. error.middleware.js
+
+### logger.middleware.js
+
+This middleware is used to log all the requests and responses. It uses [simple-node-logger](https://www.npmjs.com/package/simple-node-logger) under the hood.
+
+```js
+const accessLog = require("simple-node-logger").createSimpleLogger({
+    logFilePath: "./log/access/" + new Date().toLocaleDateString().split("/").join("-") + ".log",
+    timestampFormat: "YYYY-MM-DD HH:mm:ss"
+})
+
+/**
+ *
+ * @param req
+ * @param res
+ * @param next
+ * @returns {*}
+ */
+module.exports = (req, res, next) => {
+    let reqObject = {
+        method: req.method,
+        path: req.path,
+        param: req.params,
+        body: req.body
+    }
+
+    let resObject = {
+        statusCode: res.statusCode
+    }
+
+    accessLog.info(
+        JSON.stringify({
+            reqObject,
+            resObject
+        })
+    )
+
+    next()
+}
+```
+
+### error.middleware.js
+
+This middleware is used to handle all the errors. It uses [simple-node-logger](https://www.npmjs.com/package/simple-node-logger) under the hood. Also, Framework X use [express-async-errors](https://www.npmjs.com/package/express-async-errors) to handle async errors. Any exception thrown will be handled by this middleware and a fail response will be sent to the client.
+```js
+const methods = require("../helpers/methods")
+const errorLog = require("simple-node-logger").createSimpleLogger({
+    logFilePath: "./log/error/" + new Date().toLocaleDateString().split("/").join("-") + ".log",
+    timestampFormat: "YYYY-MM-DD HH:mm:ss"
+})
+/**
+ *
+ * @param error
+ * @param req
+ * @param res
+ * @param next
+ * @returns {*}
+ */
+// eslint-disable-next-line no-unused-vars
+module.exports = (error, req, res, next) => {
+    errorLog.error(error.message)
+    return res.status(process.env.EXCEPTION_CODE).send(methods.failResponse(error.message))
+}
+```
+
+## middlewares/validators
+
+This directory contains request validators. Framework X uses [express-validator](https://express-validator.github.io/docs/) under the hood.
+
+## index.js
+
+This file creates the Application instance with [ExpressJS](https://expressjs.com/). It also loads all the middlewares, routes and everything else required to run the application. index.js exports the app instance which is used by server.js to create the server.
+
+```js
+require("dotenv").config()
+require("express-async-errors")
+
+const accessLogMiddleware = require("./middlewares/logger.middleware")
+const routes = require("./routes/api")
+
+const express = require("express")
+const app = express()
+const cors = require("cors")
+
+app.use(cors())
+
+app.use(express.json())
+
+// Req and Res logger.
+app.use(accessLogMiddleware)
+
+app.use("/", routes)
+
+module.exports = app
+```
+
+## server.js
+
+This file creates the server from the app instance provided by index.js. "server.js" is the entry point for Framework X.
+
+```js
+const app = require("./index")
+const port = process.env.PORT
+const errorMiddleware = require("./middlewares/error.middleware")
+
+console.log(`Node environment: ${process.env.NODE_ENV}`)
+app.listen(port, () => {
+    console.log(`Example app listening at port http://localhost:${port}`)
+})
+
+// Error Handler Middleware
+app.use(errorMiddleware)
+```
+
+## x
+
+This is the CLI access point. It is used to control the CLI utilities of Framework X. You can find more details about CLI [here]()
+
+<Support />
+
