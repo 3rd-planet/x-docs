@@ -1,16 +1,14 @@
 {
-  "index": "Introduction",
-  "overview": "Overview",
-  "cli": "CLI",
-  "deployment": "Deployment",
-  "roadmap": "Roadmap",
-  "contributors": {
-    "title": "Contributors",
+  "index": {
+    "title": "Home",
     "type": "page"
   },
-  "github_link": {
-    "title": "GitHub",
-    "href": "https://github.com/3rd-planet/framework-x",
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  },
+  "contributors": {
+    "title": "Contributors",
     "type": "page"
   }
 }
