@@ -4,46 +4,46 @@ Framework X is a meticulously designed solution to kickstart your project. With 
 
 ```
 /
-├── controllers
-│   └── index.controller.js
-├── helpers
-│   └── methods.js
+├── app
+│   ├── controllers
+│   │   └── index.controller.js
+│   ├── helpers
+│   │   └── methods.js
+│   ├── index.js
+│   ├── middlewares
+│   │   ├── error.middleware.js
+│   │   ├── logger.middleware.js
+│   │   └── validators
+│   │       └── index.validations.js
+│   ├── routes
+│   │   └── api.route.js
+│   ├── server.js
+│   └── tests
+│       ├── index.fail.validation.test.js
+│       ├── index.get.test.js
+│       └── index.post.test.js
 ├── http
 │   └── index.http
-├── index.js
 ├── log
 │   ├── access
 │   └── error
-├── middlewares
-│   ├── error.middleware.js
-│   ├── logger.middleware.js
-│   └── validators
-│       └── index.validations.js
-├── package-lock.json
 ├── package.json
-├── routes
-│   └── api.js
-├── server.js
-├── tests
-│   ├── index.fail.validation.test.js
-│   ├── index.get.test.js
-│   └── index.post.test.js
 └── x
 ```
 
-| File/Directory Name    | Description                                                                                                                                                                        |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| controllers            | The controller directory. it contains all the controller files. Nested directories are also supported.                                                                             |
-| helpers                | Any sort of helpers required by the project are contained in this directory. By default, it comes with methods.js with some handy methods.                                         |
-| http                   | This directory contains the **.http** files. You can find more details about .http files [here](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0) |
-| log                    | Stores access and error logs by date.                                                                                                                                              |
-| middlewares            | This directory contains all the middleware. Framework X comes with some default middleware which we will discuss in detail in further documentation.                               |
-| middlewares.validators | This directory contains request validators. Framework X uses [express-validator](https://express-validator.github.io/docs/) under the hood.                                        |
-| routes                 | This directory contains all the API routes. You can find more details about [Express Routes here](https://expressjs.com/en/guide/routing.html).                                    |
-| tests                  | This is the "tests" directory                                                                                                                                                      |
-| index.js               | Creates the Application instance with [ExpressJS](https://expressjs.com/)                                                                                                          |
-| server.js              | Created Server from the app instance provided by index.js. "server.js" is the entry point for Framework X                                                                          |
-| x                      | CLI access point.                                                                                                                                                                  |
+| File/Directory Name            | Description                                                                                                                                                                        |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ``app.controllers``            | The controller directory. it contains all the controller files. Nested directories are also supported.                                                                             |
+| ``app.helpers``                | Any sort of helpers required by the project are contained in this directory. By default, it comes with methods.js with some handy methods.                                         |
+| ``http``                       | This directory contains the **.http** files. You can find more details about .http files [here](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0) |
+| ``log``                        | Stores access and error logs by date.                                                                                                                                              |
+| ``app.middlewares``            | This directory contains all the middleware. Framework X comes with some default middleware which we will discuss in detail in further documentation.                               |
+| ``app.middlewares.validators`` | This directory contains request validators. Framework X uses [express-validator](https://express-validator.github.io/docs/) under the hood.                                        |
+| ``app.routes``                 | This directory contains all the API routes. You can find more details about [Express Routes here](https://expressjs.com/en/guide/routing.html).                                    |
+| ``app.tests``                  | This is the "tests" directory                                                                                                                                                      |
+| ``app.index.js``               | Creates the Application instance with [ExpressJS](https://expressjs.com/)                                                                                                          |
+| ``app.server.js``              | Created Server from the app instance provided by index.js. "server.js" is the entry point for Framework X                                                                          |
+| `x`                            | CLI access point.                                                                                                                                                                  |
 
 ## helpers/methods.js
 
