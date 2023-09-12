@@ -1,0 +1,20 @@
+{
+  "unversionedId": "overview/test",
+  "id": "overview/test",
+  "title": "test",
+  "description": "Unit testing and integration testing are vital in software development. Unit testing ensures individual components or functions work correctly in isolation, catching bugs early and improving code quality.",
+  "source": "@site/docs/overview/test.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/test",
+  "permalink": "/docs/overview/test",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/test.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "repositories",
+    "permalink": "/docs/overview/repositories"
+  }
+}

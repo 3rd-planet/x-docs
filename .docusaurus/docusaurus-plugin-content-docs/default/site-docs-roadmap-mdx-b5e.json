@@ -1,0 +1,24 @@
+{
+  "unversionedId": "roadmap",
+  "id": "roadmap",
+  "title": "Roadmap",
+  "description": "Exciting plans ahead! We're diligently crafting a roadmap to enhance your experience. Our focus is on innovations that will elevate our services, driven by your valuable feedback. Stay tuned for a journey of improvements designed to meet your needs and exceed expectations. Your satisfaction fuels our framework's success.",
+  "source": "@site/docs/roadmap.mdx",
+  "sourceDirName": ".",
+  "slug": "/roadmap",
+  "permalink": "/docs/roadmap",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/roadmap.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Roadmap"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/docs/deployment"
+  }
+}

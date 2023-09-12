@@ -1,0 +1,24 @@
+{
+  "unversionedId": "overview/dependencies",
+  "id": "overview/dependencies",
+  "title": "dependencies",
+  "description": "You are free to use any Node Package Manager available to you, however, we recommend using npm as it is the package manager we use internally. Some other popular package managers are yarn and pnpm.",
+  "source": "@site/docs/overview/dependencies.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/dependencies",
+  "permalink": "/docs/overview/dependencies",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/dependencies.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "cache",
+    "permalink": "/docs/overview/cache"
+  },
+  "next": {
+    "title": "error-handling",
+    "permalink": "/docs/overview/error-handling"
+  }
+}

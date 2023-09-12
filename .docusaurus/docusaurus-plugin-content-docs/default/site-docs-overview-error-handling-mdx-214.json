@@ -1,0 +1,28 @@
+{
+  "unversionedId": "overview/error-handling",
+  "id": "overview/error-handling",
+  "title": "Error Handling",
+  "description": "Error Handling is a very important part of any application. It is important to handle errors gracefully and present them to the user in a way that is understandable. This is especially true for applications that are used by non-technical users. We use [express-async-errors",
+  "source": "@site/docs/overview/error-handling.mdx",
+  "sourceDirName": "overview",
+  "slug": "/overview/error-handling",
+  "permalink": "/docs/overview/error-handling",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/error-handling.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Error Handling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Super Charged Cache",
+    "permalink": "/docs/overview/cache"
+  },
+  "next": {
+    "title": "Testing",
+    "permalink": "/docs/overview/test"
+  }
+}

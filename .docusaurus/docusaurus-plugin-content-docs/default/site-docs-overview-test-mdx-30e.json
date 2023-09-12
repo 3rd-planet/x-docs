@@ -1,0 +1,28 @@
+{
+  "unversionedId": "overview/test",
+  "id": "overview/test",
+  "title": "Testing",
+  "description": "Unit testing and integration testing are vital in software development. Unit testing ensures individual components or functions work correctly in isolation, catching bugs early and improving code quality.",
+  "source": "@site/docs/overview/test.mdx",
+  "sourceDirName": "overview",
+  "slug": "/overview/test",
+  "permalink": "/docs/overview/test",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/test.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Testing"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error Handling",
+    "permalink": "/docs/overview/error-handling"
+  },
+  "next": {
+    "title": "CLI",
+    "permalink": "/docs/cli"
+  }
+}

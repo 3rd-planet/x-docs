@@ -1,0 +1,496 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs",
+          "editUrlLocalized": "https://github.com/3rd-planet/x-docs/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/msamgan/Projects/boilerplate/x-docs-new/sidebars.js",
+          "contentPath": "/Users/msamgan/Projects/boilerplate/x-docs-new/docs",
+          "contentPathLocalized": "/Users/msamgan/Projects/boilerplate/x-docs-new/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "cli",
+              "id": "cli",
+              "title": "CLI",
+              "description": "A CLI (Command-Line Interface) tool is vital in any project because it offers efficient, scriptable, and automation-friendly access to an application's functionality. It simplifies tasks for developers, enhancing productivity, ease of use, and scalability while providing a standardized interface for interacting with the project.",
+              "source": "@site/docs/cli.mdx",
+              "sourceDirName": ".",
+              "slug": "/cli",
+              "permalink": "/docs/cli",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/cli.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "CLI"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Testing",
+                "permalink": "/docs/overview/test"
+              },
+              "next": {
+                "title": "Deployment",
+                "permalink": "/docs/deployment"
+              }
+            },
+            {
+              "unversionedId": "deployment",
+              "id": "deployment",
+              "title": "Deployment",
+              "description": "you can use the following services to deploy your application:",
+              "source": "@site/docs/deployment.mdx",
+              "sourceDirName": ".",
+              "slug": "/deployment",
+              "permalink": "/docs/deployment",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/deployment.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Deployment"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CLI",
+                "permalink": "/docs/cli"
+              },
+              "next": {
+                "title": "Roadmap",
+                "permalink": "/docs/roadmap"
+              }
+            },
+            {
+              "unversionedId": "introduction",
+              "id": "introduction",
+              "title": "Introduction",
+              "description": "Your Accelerated Path to API Creation",
+              "source": "@site/docs/introduction.mdx",
+              "sourceDirName": ".",
+              "slug": "/introduction",
+              "permalink": "/docs/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/introduction.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/category/overview"
+              }
+            },
+            {
+              "unversionedId": "overview/application",
+              "id": "overview/application",
+              "title": "Application",
+              "description": "Framework X promotes modularity, as each component has a specific role and can be developed, tested, and maintained independently. This separation also enhances collaboration among developers working on different parts of the application. Additionally, Framework X is build on MVC, MVC supports flexibility, as changes in one component do not necessarily impact the others. This architecture is widely used in web development, desktop applications, and mobile apps due to its clear separation of responsibilities and its ability to accommodate evolving requirements and user interfaces.",
+              "source": "@site/docs/overview/application.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/application",
+              "permalink": "/docs/overview/application",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/application.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Application"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Project Template",
+                "permalink": "/docs/overview/opinionated-project-template"
+              },
+              "next": {
+                "title": "Features",
+                "permalink": "/docs/overview/features"
+              }
+            },
+            {
+              "unversionedId": "overview/cache",
+              "id": "overview/cache",
+              "title": "Super Charged Cache",
+              "description": "By reducing the time it takes to access data, caching speeds up the performance of computers and applications. This is crucial for functions that require rapid data retrieval. In APIs, caching ensures that frequently visited URLs loads faster, providing a smoother experience for users.",
+              "source": "@site/docs/overview/cache.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/cache",
+              "permalink": "/docs/overview/cache",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/cache.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7,
+                "title": "Super Charged Cache"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Repository Pattern",
+                "permalink": "/docs/overview/repositories"
+              },
+              "next": {
+                "title": "Error Handling",
+                "permalink": "/docs/overview/error-handling"
+              }
+            },
+            {
+              "unversionedId": "overview/dependencies",
+              "id": "overview/dependencies",
+              "title": "Dependencies",
+              "description": "You are free to use any Node Package Manager available to you, however, we recommend using npm as it is the package manager we use internally. Some other popular package managers are yarn and pnpm.",
+              "source": "@site/docs/overview/dependencies.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/dependencies",
+              "permalink": "/docs/overview/dependencies",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/dependencies.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Dependencies"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Features",
+                "permalink": "/docs/overview/features"
+              },
+              "next": {
+                "title": "Repository Pattern",
+                "permalink": "/docs/overview/repositories"
+              }
+            },
+            {
+              "unversionedId": "overview/error-handling",
+              "id": "overview/error-handling",
+              "title": "Error Handling",
+              "description": "Error Handling is a very important part of any application. It is important to handle errors gracefully and present them to the user in a way that is understandable. This is especially true for applications that are used by non-technical users. We use [express-async-errors",
+              "source": "@site/docs/overview/error-handling.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/error-handling",
+              "permalink": "/docs/overview/error-handling",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/error-handling.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8,
+                "title": "Error Handling"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Super Charged Cache",
+                "permalink": "/docs/overview/cache"
+              },
+              "next": {
+                "title": "Testing",
+                "permalink": "/docs/overview/test"
+              }
+            },
+            {
+              "unversionedId": "overview/features",
+              "id": "overview/features",
+              "title": "Features",
+              "description": "Framework X comprises a number of features that are designed to make it easy to build and maintain complex web applications. These features include:",
+              "source": "@site/docs/overview/features.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/features",
+              "permalink": "/docs/overview/features",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/features.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Features"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Application",
+                "permalink": "/docs/overview/application"
+              },
+              "next": {
+                "title": "Dependencies",
+                "permalink": "/docs/overview/dependencies"
+              }
+            },
+            {
+              "unversionedId": "overview/first-step",
+              "id": "overview/first-step",
+              "title": "First Step",
+              "description": "The first step symbolizes initiation, pushing us from inertia to action. It lays the foundation for progress, learning, and achievement. Taking that initial stride requires courage, setting the tone for the journey ahead. Even the grandest accomplishments begin with a single, crucial step, underscoring its profound significance. So, let's get started and take that first step!",
+              "source": "@site/docs/overview/first-step.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/first-step",
+              "permalink": "/docs/overview/first-step",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/first-step.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "First Step"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/category/overview"
+              },
+              "next": {
+                "title": "Project Template",
+                "permalink": "/docs/overview/opinionated-project-template"
+              }
+            },
+            {
+              "unversionedId": "overview/opinionated-project-template",
+              "id": "overview/opinionated-project-template",
+              "title": "Project Template",
+              "description": "Framework X is a meticulously designed solution to kickstart your project. With predefined best practices and structures. Embrace our expert recommendations or customize. Either way, you're set up for success, saving time and ensuring quality from the get-go",
+              "source": "@site/docs/overview/opinionated-project-template.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/opinionated-project-template",
+              "permalink": "/docs/overview/opinionated-project-template",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/opinionated-project-template.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Project Template"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "First Step",
+                "permalink": "/docs/overview/first-step"
+              },
+              "next": {
+                "title": "Application",
+                "permalink": "/docs/overview/application"
+              }
+            },
+            {
+              "unversionedId": "overview/repositories",
+              "id": "overview/repositories",
+              "title": "Repository Pattern",
+              "description": "The Repository Pattern is a design pattern commonly used in software development to separate the logic that retrieves data from a data store (such as a database) from the rest of the application's code. It provides a way to abstract and encapsulate the data access layer, making it easier to manage and maintain the codebase, improve testability, and promote a more structured and modular architecture.",
+              "source": "@site/docs/overview/repositories.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/repositories",
+              "permalink": "/docs/overview/repositories",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/repositories.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "title": "Repository Pattern"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dependencies",
+                "permalink": "/docs/overview/dependencies"
+              },
+              "next": {
+                "title": "Super Charged Cache",
+                "permalink": "/docs/overview/cache"
+              }
+            },
+            {
+              "unversionedId": "overview/test",
+              "id": "overview/test",
+              "title": "Testing",
+              "description": "Unit testing and integration testing are vital in software development. Unit testing ensures individual components or functions work correctly in isolation, catching bugs early and improving code quality.",
+              "source": "@site/docs/overview/test.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/test",
+              "permalink": "/docs/overview/test",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/test.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9,
+                "title": "Testing"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Error Handling",
+                "permalink": "/docs/overview/error-handling"
+              },
+              "next": {
+                "title": "CLI",
+                "permalink": "/docs/cli"
+              }
+            },
+            {
+              "unversionedId": "roadmap",
+              "id": "roadmap",
+              "title": "Roadmap",
+              "description": "Exciting plans ahead! We're diligently crafting a roadmap to enhance your experience. Our focus is on innovations that will elevate our services, driven by your valuable feedback. Stay tuned for a journey of improvements designed to meet your needs and exceed expectations. Your satisfaction fuels our framework's success.",
+              "source": "@site/docs/roadmap.mdx",
+              "sourceDirName": ".",
+              "slug": "/roadmap",
+              "permalink": "/docs/roadmap",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/roadmap.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Roadmap"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deployment",
+                "permalink": "/docs/deployment"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "introduction"
+              },
+              {
+                "type": "category",
+                "label": "Overview",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "overview/first-step"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/opinionated-project-template"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/application"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/dependencies"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/repositories"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/cache"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/error-handling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/test"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Overview of the Framework",
+                  "slug": "/category/overview",
+                  "permalink": "/docs/category/overview"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "cli"
+              },
+              {
+                "type": "doc",
+                "id": "deployment"
+              },
+              {
+                "type": "doc",
+                "id": "roadmap"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/contributors",
+        "source": "@site/src/pages/contributors.mdx",
+        "title": "Contributors",
+        "description": "Framework X relies on a collaborative community of developers and enthusiasts who actively contribute to its development, improvement, and maintenance. This collective effort fosters innovation, ensures continuous updates, and creates a robust ecosystem around the framework, making it a dynamic and thriving platform for various applications and solutions.",
+        "frontMatter": {
+          "title": "Contributors"
+        }
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

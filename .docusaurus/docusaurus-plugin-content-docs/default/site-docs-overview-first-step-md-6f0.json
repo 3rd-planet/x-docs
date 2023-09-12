@@ -1,0 +1,24 @@
+{
+  "unversionedId": "overview/first-step",
+  "id": "overview/first-step",
+  "title": "first-step",
+  "description": "The first step symbolizes initiation, pushing us from inertia to action. It lays the foundation for progress, learning, and achievement. Taking that initial stride requires courage, setting the tone for the journey ahead. Even the grandest accomplishments begin with a single, crucial step, underscoring its profound significance. So, let's get started and take that first step!",
+  "source": "@site/docs/overview/first-step.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/first-step",
+  "permalink": "/docs/overview/first-step",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/first-step.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "features",
+    "permalink": "/docs/overview/features"
+  },
+  "next": {
+    "title": "opinionated-project-template",
+    "permalink": "/docs/overview/opinionated-project-template"
+  }
+}

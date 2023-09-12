@@ -1,0 +1,28 @@
+{
+  "unversionedId": "cli",
+  "id": "cli",
+  "title": "CLI",
+  "description": "A CLI (Command-Line Interface) tool is vital in any project because it offers efficient, scriptable, and automation-friendly access to an application's functionality. It simplifies tasks for developers, enhancing productivity, ease of use, and scalability while providing a standardized interface for interacting with the project.",
+  "source": "@site/docs/cli.mdx",
+  "sourceDirName": ".",
+  "slug": "/cli",
+  "permalink": "/docs/cli",
+  "draft": false,
+  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/cli.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "CLI"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Testing",
+    "permalink": "/docs/overview/test"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/docs/deployment"
+  }
+}
