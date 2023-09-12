@@ -138,6 +138,14 @@ const config = {
                 appId: "ZZR6P6BR18",
                 apiKey: 'beaebbbdb3370bca0c9513bf53354837',
                 indexName: 'frameworkx',
+            },
+            announcementBar: {
+                id: 'support_ukraine',
+                content:
+                    'You can support the project by <a target="_blank" rel="noopener noreferrer" href="https://github.com/3rd-planet/framework-x"> Star ⭐ the project on GitHub.</a>',
+                backgroundColor: '#20232a',
+                textColor: '#fff',
+                isCloseable: false,
             }
         }),
 };

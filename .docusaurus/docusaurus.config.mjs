@@ -326,6 +326,13 @@ export default {
       "searchParameters": {},
       "searchPagePath": "search"
     },
+    "announcementBar": {
+      "id": "support_ukraine",
+      "content": "You can support the project by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/3rd-planet/framework-x\"> Star ⭐ the project on GitHub.</a>",
+      "backgroundColor": "#20232a",
+      "textColor": "#fff",
+      "isCloseable": false
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
