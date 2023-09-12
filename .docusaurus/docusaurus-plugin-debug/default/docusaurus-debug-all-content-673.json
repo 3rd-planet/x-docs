@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/3rd-planet/x-docs/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/msamgan/Projects/boilerplate/x-docs-new/sidebars.js",
-          "contentPath": "/Users/msamgan/Projects/boilerplate/x-docs-new/docs",
-          "contentPathLocalized": "/Users/msamgan/Projects/boilerplate/x-docs-new/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/msamgan/Projects/boilerplate/x-docs/sidebars.js",
+          "contentPath": "/Users/msamgan/Projects/boilerplate/x-docs/docs",
+          "contentPathLocalized": "/Users/msamgan/Projects/boilerplate/x-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "cli",

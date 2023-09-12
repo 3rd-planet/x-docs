@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/msamgan/Projects/boilerplate/x-docs-new/sidebars.js",
+          "sidebarPath": "/Users/msamgan/Projects/boilerplate/x-docs/sidebars.js",
           "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/"
         },
         "theme": {
-          "customCss": "/Users/msamgan/Projects/boilerplate/x-docs-new/src/css/custom.css"
+          "customCss": "/Users/msamgan/Projects/boilerplate/x-docs/src/css/custom.css"
         }
       }
     ]
