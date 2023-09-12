@@ -4,6 +4,8 @@ title: Testing
 ---
 
 import Support from '/components/Support.md'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 Unit testing and integration testing are vital in software development. Unit testing ensures individual components or functions work correctly in isolation, catching bugs early and improving code quality.
 
@@ -15,7 +17,7 @@ Framework X comes with a built-in testing framework that makes it easy to write 
 
 ## Example Tests
 
-Below are some example of a test for a simple API endpoints.
+Below are some examples of a test for a simple API endpoints.
 
 ### index.get.test.js
 
@@ -81,8 +83,27 @@ describe("Test the root post path with fail validation", () => {
 
 To run your tests, you can use the following command:
 
-```bash
-npm run test
-```
+<Tabs>
+<TabItem value="pnpm" label="pnpm">
+
+    pnpm run test
+
+</TabItem>
+<TabItem value="yarn" label="yarn">
+
+    yarn run test
+
+</TabItem>
+<TabItem value="npm" label="npm">
+
+    npm run test
+
+</TabItem>
+<TabItem value="bun" label="bun">
+
+    bun run test
+
+</TabItem>
+</Tabs>
 
 <Support/>

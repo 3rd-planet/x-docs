@@ -44,7 +44,9 @@ exports.index = async (req, res) => {
     let someCalculationAnswer = someCalculations(1, 1, 1)
 
     setCache(req.url, someCalculationAnswer, {
+        // highlight-next-line
         function: someCalculations,
+        // highlight-next-line
         params: [1, 1, 1]
     }).then(() => {})
 
