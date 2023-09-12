@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
     {
         title: 'Easy to Use',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        Svg: require('@site/static/img/easy_to_use.svg').default,
         description: (
             <>
                 Framework X was designed from the ground up to be easily installed and
@@ -15,7 +15,7 @@ const FeatureList = [
     },
     {
         title: 'Focus on What Matters',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        Svg: require('@site/static/img/focus.svg').default,
         description: (
             <>
                 Framework X lets you focus on your APIs, and It&apos;ll do the chores. Go
@@ -25,7 +25,7 @@ const FeatureList = [
     },
     {
         title: 'Powered by Express',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/express.svg').default,
         description: (
             <>
                 Extend or customize your APIs. Framework X can
@@ -37,12 +37,10 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
     return (
-        <div className={clsx('col col--4')} style={{
-            marginTop: '2rem',
-        }}>
-            {/*<div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>*/}
+        <div className={clsx('col col--4')}>
+            <div className="text--center">
+                <Svg className={styles.featureSvg} role="img"/>
+            </div>
             <div className="text--center padding-horiz--md">
                 <h3>{title}</h3>
                 <p>{description}</p>
