@@ -1,0 +1,99 @@
+import Support from '/components/Support.md'
+
+By reducing the time it takes to access data, caching speeds up the performance of computers and applications. This is crucial for functions that require rapid data retrieval. In APIs, caching ensures that frequently visited URLs loads faster, providing a smoother experience for users.
+
+> Framework X uses **Redis** for caching. Redis is an open-source, in-memory data structure store, used as a database, cache, and message broker.
+
+## How to use Cache in Framework X
+
+To use cache in Framework X, you need to add the set `CACHE_ENABLED=true` property in your `.env` file.
+There are 2 more keys available for cache configuration:
+
+- `CACHE_UPDATE_INTERVAL` - The interval in seconds to update the cache. Default is 10 seconds.
+- `CACHE_EXPIRE_TIME` - The time in seconds to expire the cache. Default is 60 seconds.
+
+## Auto update cache
+
+Framework X automatically updates the cache every 10 seconds. You can change this interval by setting the `CACHE_UPDATE_INTERVAL` property in your `.env` file, provided the function and the parameters of the function from which the cache is generated.
+
+### Example:
+
+```js
+const {setCache, getCache} = require("@3rdplanet/x-core/cache")
+
+exports.index = async (req, res) => {
+
+    let responseData = await getCache(req.url)
+
+    if (responseData) {
+        return res.send(
+            successResponse("cache found...", responseData.response)
+        )
+    }
+
+    let someCalculationAnswer = someCalculations(1, 1, 1)
+
+    setCache(req.url, someCalculationAnswer, {
+        function: someCalculations,
+        params: [1, 1, 1]
+    }).then(() => {})
+
+    return res.send(
+        successResponse("cache in progress...", someCalculationAnswer)
+    )
+}
+
+```
+The above code will cache the response of the `someCalculations` function. The cache will be updated every 10 seconds, by running the `someCalculations` function with the parameters `[1, 1, 1]`. You can access the updated cache by `response` property of the `responseData` object.
+
+If the `req.url` is not access in `CACHE_EXPIRE_TIME`, the cache will automatically delete itself.
+
+If the same request on `req.url` is made within `CACHE_EXPIRE_TIME`, the response will be returned from the cache and the update will continue in the background every `CACHE_UPDATE_INTERVAL`.
+
+## Available methods
+
+Framework X provides the following methods for cache which can be accessed by `require("@3rdplanet/x-core/cache")`:
+
+### isCacheEnabled()
+
+Returns `true` if cache is enabled, otherwise `false`.
+
+### cacheUpdateInterval()
+
+Returns the cache update interval in seconds from the `.env` file.
+
+### getCacheClient(config = null)
+
+Returns the Redis client. If the `config` is not provided, the default config will be used from the `.env` file. The `config` parameter is an object with the following properties:
+1. `host` - The Redis host. Default is `null`.
+2. `port` - The Redis port. Default is `6379`.
+3. `password` - The Redis password. Default is `null`.
+4. `username` - The Redis username. Default is `null`.
+5. `database` - The Redis database. Default is `0`.
+
+
+### getCache(key)
+
+Returns the cache data for the provided `key`. If the cache is not found, `null` will be returned. The returned data is an object with the following properties:
+
+1. `key` - The cache key.
+2. `response` - The response from the cache.
+3. `last_accessed` - The last accessed time of the cache.
+4. `last_updated` - The last auto updated time of the cache.
+
+
+### setCache(key, response, updater = null)
+
+Sets the cache data for the provided `key`. The `response` parameter is the response to be cached. The `updater` parameter is an object with the following properties:
+
+1. `function` - The function to be called for auto update.
+2. `params` - The parameters to be passed to the function.
+
+### deleteCache(cache)
+
+Deletes the provided `cache` object which is returned from the `getCache` method.
+
+
+
+
+<Support/>

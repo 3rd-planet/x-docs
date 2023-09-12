@@ -4,6 +4,7 @@
   "features": "Features",
   "application": "Application",
   "repositories": "Repositories",
+  "cache": "Super Charged Cache",
   "dependencies": "Dependencies",
   "error-handling": "Error Handling",
   "test": "Test"
