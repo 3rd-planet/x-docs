@@ -56,6 +56,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "overview/mail",
+              "path": "/docs/overview/mail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "overview/opinionated-project-template",
               "path": "/docs/overview/opinionated-project-template",
               "sidebar": "tutorialSidebar"

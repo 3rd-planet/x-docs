@@ -150,8 +150,8 @@
                 "permalink": "/docs/overview/repositories"
               },
               "next": {
-                "title": "Error Handling",
-                "permalink": "/docs/overview/error-handling"
+                "title": "Mail",
+                "permalink": "/docs/overview/mail"
               }
             },
             {
@@ -195,15 +195,15 @@
               "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/error-handling.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
+              "sidebarPosition": 9,
               "frontMatter": {
-                "sidebar_position": 8,
+                "sidebar_position": 9,
                 "title": "Error Handling"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Super Charged Cache",
-                "permalink": "/docs/overview/cache"
+                "title": "Mail",
+                "permalink": "/docs/overview/mail"
               },
               "next": {
                 "title": "Testing",
@@ -264,6 +264,34 @@
               "next": {
                 "title": "Project Template",
                 "permalink": "/docs/overview/opinionated-project-template"
+              }
+            },
+            {
+              "unversionedId": "overview/mail",
+              "id": "overview/mail",
+              "title": "Mail",
+              "description": "Sending emails is a common task for web applications. In this section, we will learn how to send emails using the inbuilt mail module of Framework X.",
+              "source": "@site/docs/overview/mail.mdx",
+              "sourceDirName": "overview",
+              "slug": "/overview/mail",
+              "permalink": "/docs/overview/mail",
+              "draft": false,
+              "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/mail.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8,
+                "title": "Mail"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Super Charged Cache",
+                "permalink": "/docs/overview/cache"
+              },
+              "next": {
+                "title": "Error Handling",
+                "permalink": "/docs/overview/error-handling"
               }
             },
             {
@@ -335,9 +363,9 @@
               "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/test.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 9,
+              "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 9,
+                "sidebar_position": 10,
                 "title": "Testing"
               },
               "sidebar": "tutorialSidebar",
@@ -415,6 +443,10 @@
                   {
                     "type": "doc",
                     "id": "overview/cache"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "overview/mail"
                   },
                   {
                     "type": "doc",

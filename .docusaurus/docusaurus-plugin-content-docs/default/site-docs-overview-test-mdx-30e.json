@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/test.mdx",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 9,
+  "sidebarPosition": 10,
   "frontMatter": {
-    "sidebar_position": 9,
+    "sidebar_position": 10,
     "title": "Testing"
   },
   "sidebar": "tutorialSidebar",

@@ -1,0 +1,95 @@
+---
+sidebar_position: 8
+title: Mail
+---
+
+import Support from '/components/Support.md'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Sending emails is a common task for web applications. In this section, we will learn how to send emails using the inbuilt `mail` module of Framework X.
+
+:::info
+
+Framework X uses **[nodemailer](https://nodemailer.com/)** for mailing with **[mjml](https://mjml.io/)** for templating.
+
+:::
+
+## Installation
+
+If not already installed, please install the dependencies below:
+
+<Tabs>
+<TabItem value="pnpm" label="pnpm">
+
+    pnpm install nodemailer mjml
+
+</TabItem>
+<TabItem value="yarn" label="yarn">
+
+    yarn install nodemailer mjml
+
+</TabItem>
+<TabItem value="npm" label="npm">
+
+    npm install nodemailer mjml
+
+</TabItem>
+<TabItem value="bun" label="bun">
+
+    bun install nodemailer mjml
+
+</TabItem>
+</Tabs>
+
+## Usage
+
+To send an email, you need to update `.env` file with the following variables:
+
+```env
+MAILER_HOST="sandbox.smtp.mailtrap.io"
+# 25 or 465 or 587 or 2525
+MAILER_PORT=2525
+MAILER_USER=
+MAILER_PASS=
+# true for 465, false for other ports
+MAILER_SECURE=false
+MAILER_FROM='"Fred Foo 👻" <foo@example.com>'
+```
+:::info
+
+Please note that the `MAILER_FROM` variable is used as the default sender for all emails sent by the application. You can override this by passing the `from` option to the `sendMail` method. See the example below.
+
+:::
+
+### Create Mail Template
+
+You can create a new mail template by running the command below:
+
+```bash
+node x build:mail <template-name>
+```
+
+#### Example
+
+```bash
+node x build:mail order_created
+```
+
+This will create a new file `order_created.mail.mjml` in the `mails` directory.
+
+### Send Mail
+
+```js
+const {sendMail} = require("@3rdplanet/x-core/mailer")
+
+let mailOption = {
+    to: ["bar@example.com", "baz@example.com"],
+    subject: "Hello there"
+}
+
+sendMail('order_created', mailOption).then(() => {})
+```
+
+
+<Support/>

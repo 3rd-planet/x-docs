@@ -54,7 +54,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ed2'),
+    component: ComponentCreator('/docs', '91b'),
     routes: [
       {
         path: '/docs/category/overview',
@@ -113,6 +113,12 @@ export default [
       {
         path: '/docs/overview/first-step',
         component: ComponentCreator('/docs/overview/first-step', '6ba'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/overview/mail',
+        component: ComponentCreator('/docs/overview/mail', '303'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

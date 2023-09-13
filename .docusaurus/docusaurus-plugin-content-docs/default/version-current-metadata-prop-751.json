@@ -65,6 +65,12 @@
           },
           {
             "type": "link",
+            "label": "Mail",
+            "href": "/docs/overview/mail",
+            "docId": "overview/mail"
+          },
+          {
+            "type": "link",
             "label": "Error Handling",
             "href": "/docs/overview/error-handling",
             "docId": "overview/error-handling"
@@ -151,6 +157,12 @@
       "id": "overview/first-step",
       "title": "First Step",
       "description": "The first step symbolizes initiation, pushing us from inertia to action. It lays the foundation for progress, learning, and achievement. Taking that initial stride requires courage, setting the tone for the journey ahead. Even the grandest accomplishments begin with a single, crucial step, underscoring its profound significance. So, let's get started and take that first step!",
+      "sidebar": "tutorialSidebar"
+    },
+    "overview/mail": {
+      "id": "overview/mail",
+      "title": "Mail",
+      "description": "Sending emails is a common task for web applications. In this section, we will learn how to send emails using the inbuilt mail module of Framework X.",
       "sidebar": "tutorialSidebar"
     },
     "overview/opinionated-project-template": {

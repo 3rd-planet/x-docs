@@ -11,15 +11,15 @@
   "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/error-handling.mdx",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 9,
   "frontMatter": {
-    "sidebar_position": 8,
+    "sidebar_position": 9,
     "title": "Error Handling"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Super Charged Cache",
-    "permalink": "/docs/overview/cache"
+    "title": "Mail",
+    "permalink": "/docs/overview/mail"
   },
   "next": {
     "title": "Testing",

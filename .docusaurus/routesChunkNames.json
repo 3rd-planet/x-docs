@@ -62,7 +62,7 @@
       "plugin": "plugin---search-5-de-f4b"
     }
   },
-  "/docs-ed2": {
+  "/docs-91b": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsa-1-c-25b"
@@ -108,6 +108,10 @@
   "/docs/overview/first-step-6ba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-overview-first-step-296-9b4"
+  },
+  "/docs/overview/mail-303": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-mail-302-af5"
   },
   "/docs/overview/opinionated-project-template-281": {
     "__comp": "__comp---theme-doc-item-178-a40",
