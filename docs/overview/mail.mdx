@@ -91,5 +91,22 @@ let mailOption = {
 sendMail('order_created', mailOption).then(() => {})
 ```
 
+### Send Mail with Dynamic Data
 
+```js
+const {sendMail} = require("@3rdplanet/x-core/mailer")
+
+let mailOption = {
+    to: ["bar@example.com", "baz@example.com"],
+    subject: "Hello there",
+    replacer : {
+        userName : "John Doe"
+    }
+}
+
+sendMail('order_created', mailOption).then(() => {})
+
+// in your mjml file
+<mj-text>Hello {{userName}}</mj-text>
+```
 <Support/>
