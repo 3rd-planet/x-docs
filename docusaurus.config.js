@@ -138,6 +138,9 @@ const config = {
                 appId: "ZZR6P6BR18",
                 apiKey: 'beaebbbdb3370bca0c9513bf53354837',
                 indexName: 'frameworkx',
+                contextualSearch: true,
+                searchParameters: {},
+                searchPagePath: 'search',
             },
             announcementBar: {
                 id: 'support_ukraine',
