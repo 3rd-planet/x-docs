@@ -3,7 +3,7 @@ sidebar_position: 3
 title: CLI
 ---
 
-import Support from '/components/Support.md'
+import Support from "/components/Support.md"
 
 A CLI (Command-Line Interface) tool is vital in any project because it offers efficient, scriptable, and automation-friendly access to an application's functionality. It simplifies tasks for developers, enhancing productivity, ease of use, and scalability while providing a standardized interface for interacting with the project.
 
@@ -21,12 +21,12 @@ node x <command> [options]
 
 The following commands are available:
 
-- `build:command` - Build a new command
-- `build:controller` - Build a new controller
-- `build:middleware` - Build a new middleware
-- `build:repository` - Build a new repository
-- `build:validator` - Build a new validator, based on [express-validator](https://express-validator.github.io/docs/)
-- `publish:stubs` - Publish the stubs to the `stubs` folder. This is useful when you want to customize the stubs for the CLI tool.
+-   `build:command` - Build a new command
+-   `build:controller` - Build a new controller
+-   `build:middleware` - Build a new middleware
+-   `build:repository` - Build a new repository
+-   `build:validator` - Build a new validator, based on [express-validator](https://express-validator.github.io/docs/)
+-   `publish:stubs` - Publish the stubs to the `stubs` folder. This is useful when you want to customize the stubs for the CLI tool.
 
 ## Help
 
@@ -43,6 +43,7 @@ node x --help
 ```bash
 node x build:controller user
 ```
+
 The above command will create a new controller file `controllers/user.controller.js` with the following content:
 
 ```js
@@ -71,5 +72,4 @@ node x build:repository user
 
 The above command will create an empty repository file `repositories/user.repository.js`.
 
-
-<Support/>
+<Support />

@@ -1,24 +1,24 @@
 {
-  "unversionedId": "overview/features",
-  "id": "overview/features",
-  "title": "features",
-  "description": "Framework X comprises a number of features that are designed to make it easy to build and maintain complex web applications. These features include:",
-  "source": "@site/docs/overview/features.md",
-  "sourceDirName": "overview",
-  "slug": "/overview/features",
-  "permalink": "/docs/overview/features",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/features.md",
-  "tags": [],
-  "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "error-handling",
-    "permalink": "/docs/overview/error-handling"
-  },
-  "next": {
-    "title": "first-step",
-    "permalink": "/docs/overview/first-step"
-  }
+    "unversionedId": "overview/features",
+    "id": "overview/features",
+    "title": "features",
+    "description": "Framework X comprises a number of features that are designed to make it easy to build and maintain complex web applications. These features include:",
+    "source": "@site/docs/overview/features.md",
+    "sourceDirName": "overview",
+    "slug": "/overview/features",
+    "permalink": "/docs/overview/features",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/features.md",
+    "tags": [],
+    "version": "current",
+    "frontMatter": {},
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "error-handling",
+        "permalink": "/docs/overview/error-handling"
+    },
+    "next": {
+        "title": "first-step",
+        "permalink": "/docs/overview/first-step"
+    }
 }

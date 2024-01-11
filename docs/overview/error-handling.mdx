@@ -3,7 +3,7 @@ sidebar_position: 9
 title: Error Handling
 ---
 
-import Support from '/components/Support.md'
+import Support from "/components/Support.md"
 
 Error Handling is a very important part of any application. It is important to handle errors gracefully and present them to the user in a way that is understandable. This is especially true for applications that are used by non-technical users. We use [express-async-errors
 ](https://www.npmjs.com/package/express-async-errors) to handle errors in our application. This package allows us to use async/await syntax in our express routes and automatically catch any errors that occur.
@@ -37,10 +37,10 @@ module.exports = (error, req, res, next) => {
 
 ### Error Logging
 
-We use [simple-node-logger](https://www.npmjs.com/package/simple-node-logger) to log errors to a file. This allows us to keep track of errors that occur in our application. We log the error message and the stack trace to the file. We also log the date and time that the error occurred. log file names are formatted as ``YYYY-MM-DD.log``. This allows us to easily find the log file for a specific date. We also use the ``timestampFormat`` option to format the date and time that the error occurred. This makes it easier to read the log file. Log files are stored in the ``log/error`` directory.
+We use [simple-node-logger](https://www.npmjs.com/package/simple-node-logger) to log errors to a file. This allows us to keep track of errors that occur in our application. We log the error message and the stack trace to the file. We also log the date and time that the error occurred. log file names are formatted as `YYYY-MM-DD.log`. This allows us to easily find the log file for a specific date. We also use the `timestampFormat` option to format the date and time that the error occurred. This makes it easier to read the log file. Log files are stored in the `log/error` directory.
 
 ### Error Response
 
-The [failResponse](/docs/overview/opinionated-project-template#failresponse) method is used to format the error message and send it to the user. This method is defined in the method helper file. The failResponse method takes a message as a parameter and returns an object with the message and a status code. You can change the status code to whatever you want in ``.env``. We use 400 because it is the standard status code for a bad request.
+The [failResponse](/docs/overview/opinionated-project-template#failresponse) method is used to format the error message and send it to the user. This method is defined in the method helper file. The failResponse method takes a message as a parameter and returns an object with the message and a status code. You can change the status code to whatever you want in `.env`. We use 400 because it is the standard status code for a bad request.
 
-<Support/>
+<Support />

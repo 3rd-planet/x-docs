@@ -1,24 +1,24 @@
 {
-  "unversionedId": "overview/repositories",
-  "id": "overview/repositories",
-  "title": "repositories",
-  "description": "Repository pattern",
-  "source": "@site/docs/overview/repositories.md",
-  "sourceDirName": "overview",
-  "slug": "/overview/repositories",
-  "permalink": "/docs/overview/repositories",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/repositories.md",
-  "tags": [],
-  "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "opinionated-project-template",
-    "permalink": "/docs/overview/opinionated-project-template"
-  },
-  "next": {
-    "title": "test",
-    "permalink": "/docs/overview/test"
-  }
+    "unversionedId": "overview/repositories",
+    "id": "overview/repositories",
+    "title": "repositories",
+    "description": "Repository pattern",
+    "source": "@site/docs/overview/repositories.md",
+    "sourceDirName": "overview",
+    "slug": "/overview/repositories",
+    "permalink": "/docs/overview/repositories",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/repositories.md",
+    "tags": [],
+    "version": "current",
+    "frontMatter": {},
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "opinionated-project-template",
+        "permalink": "/docs/overview/opinionated-project-template"
+    },
+    "next": {
+        "title": "test",
+        "permalink": "/docs/overview/test"
+    }
 }

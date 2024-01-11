@@ -3,9 +3,9 @@ sidebar_position: 8
 title: Mail
 ---
 
-import Support from '/components/Support.md'
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Support from "/components/Support.md"
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
 
 Sending emails is a common task for web applications. In this section, we will learn how to send emails using the inbuilt `mail` module of Framework X.
 
@@ -56,6 +56,7 @@ MAILER_PASS=
 MAILER_SECURE=false
 MAILER_FROM='"Fred Foo 👻" <foo@example.com>'
 ```
+
 :::info
 
 Please note that the `MAILER_FROM` variable is used as the default sender for all emails sent by the application. You can override this by passing the `from` option to the `sendMail` method. See the example below.
@@ -81,14 +82,14 @@ This will create a new file `order_created.mail.mjml` in the `mails` directory.
 ### Send Mail
 
 ```js
-const {sendMail} = require("@3rdplanet/x-core/mailer")
+const { sendMail } = require("@3rdplanet/x-core/mailer")
 
 let mailOption = {
     to: ["bar@example.com", "baz@example.com"],
     subject: "Hello there"
 }
 
-sendMail('order_created', mailOption).then(() => {})
+sendMail("order_created", mailOption).then(() => {})
 ```
 
 ### Send Mail with Dynamic Data
@@ -109,4 +110,5 @@ sendMail('order_created', mailOption).then(() => {})
 // in your mjml file
 <mj-text>Hello {{userName}}</mj-text>
 ```
-<Support/>
+
+<Support />

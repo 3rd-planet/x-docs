@@ -3,7 +3,7 @@ sidebar_position: 6
 title: Repository Pattern
 ---
 
-import Support from '/components/Support.md'
+import Support from "/components/Support.md"
 
 The Repository Pattern is a design pattern commonly used in software development to separate the logic that retrieves data from a data store (such as a database) from the rest of the application's code. It provides a way to abstract and encapsulate the data access layer, making it easier to manage and maintain the codebase, improve testability, and promote a more structured and modular architecture.
 
@@ -13,10 +13,10 @@ The goal of the repository pattern is to abstract and centralize data access log
 
 ## Benefit of a repository pattern
 
-- **Separation of Concerns**: It separates the data access logic from the business logic, promoting a clean and maintainable codebase.
-- **Testability**: It simplifies unit testing because you can easily mock or substitute the repository with fake implementations for testing purposes.
-- **Flexibility**: It allows you to switch between different data storage technologies or even replace the entire data access layer without affecting the application's core logic.
-- **Centralized Data Access**: It provides a centralized location for managing data access concerns, making it easier to implement caching, logging, and other cross-cutting concerns.
+-   **Separation of Concerns**: It separates the data access logic from the business logic, promoting a clean and maintainable codebase.
+-   **Testability**: It simplifies unit testing because you can easily mock or substitute the repository with fake implementations for testing purposes.
+-   **Flexibility**: It allows you to switch between different data storage technologies or even replace the entire data access layer without affecting the application's core logic.
+-   **Centralized Data Access**: It provides a centralized location for managing data access concerns, making it easier to implement caching, logging, and other cross-cutting concerns.
 
 Overall, the Repository Pattern is a valuable tool for designing software applications that need to interact with data stores while maintaining a high level of flexibility, maintainability, and testability.
 
@@ -33,6 +33,7 @@ node x build:repository <repository-name>
 ```bash
 node x build:repository user
 ```
+
 and this will create a file in `repositories/user.repository.js`
 
-<Support/>
+<Support />

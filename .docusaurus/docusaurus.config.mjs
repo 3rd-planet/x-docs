@@ -112,7 +112,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 3rd Planet. Built with Docusaurus."
+      "copyright": "Copyright © 2024 3rd Planet. Built with Docusaurus."
     },
     "prism": {
       "theme": {
