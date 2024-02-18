@@ -14,8 +14,22 @@ you can use the following services to deploy your application:
 
 :::info
 
-The entry point of your application is `server.js`
+The entry point of your application is `app/server.js`
 
 :::
+
+## We recommend using pm2
+
+```bash
+npm install pm2 -g
+```
+
+```bash
+pm2 start app/server.js -i 0 --name "app"
+```
+
+-i 0 will start the maximum number of instances possible based on the number of CPU cores.
+You can also specify the number of instances to start.
+you can read more about multi-core processing [here](https://pm2.keymetrics.io/docs/usage/cluster-mode/)
 
 <Support />
