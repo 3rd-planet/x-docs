@@ -24,17 +24,6 @@ const config = {
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
 
-    plugins: [
-        [
-            "@dipakparmar/docusaurus-plugin-umami",
-            {
-                websiteId: "95d5528c-1a9e-451c-81b8-203dee9341c3",
-                analyticsDomain: "cloud.umami.is",
-                dataDomains: "frameworkx.info"
-            }
-        ]
-    ],
-
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
     // to replace "en" with "zh-Hans".
