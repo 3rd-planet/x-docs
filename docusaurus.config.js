@@ -29,7 +29,7 @@ const config = {
             "@dipakparmar/docusaurus-plugin-umami",
             {
                 websiteId: "95d5528c-1a9e-451c-81b8-203dee9341c3",
-                analyticsDomain: "us.umami.is",
+                analyticsDomain: "cloud.umami.is",
                 dataDomains: "frameworkx.info"
             }
         ]
