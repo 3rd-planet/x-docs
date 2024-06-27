@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/features",
-  "id": "overview/features",
-  "title": "Features",
-  "description": "Framework X comprises a number of features that are designed to make it easy to build and maintain complex web applications. These features include:",
-  "source": "@site/docs/overview/features.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/features",
-  "permalink": "/docs/overview/features",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/features.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 4,
-  "frontMatter": {
-    "sidebar_position": 4,
-    "title": "Features"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Application",
-    "permalink": "/docs/overview/application"
-  },
-  "next": {
-    "title": "Dependencies",
-    "permalink": "/docs/overview/dependencies"
-  }
+    "unversionedId": "overview/features",
+    "id": "overview/features",
+    "title": "Features",
+    "description": "Framework X comprises a number of features that are designed to make it easy to build and maintain complex web applications. These features include:",
+    "source": "@site/docs/overview/features.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/features",
+    "permalink": "/docs/overview/features",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/features.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 4,
+    "frontMatter": {
+        "sidebar_position": 4,
+        "title": "Features"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "Application",
+        "permalink": "/docs/overview/application"
+    },
+    "next": {
+        "title": "Dependencies",
+        "permalink": "/docs/overview/dependencies"
+    }
 }

@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/mail",
-  "id": "overview/mail",
-  "title": "Mail",
-  "description": "Sending emails is a common task for web applications. In this section, we will learn how to send emails using the inbuilt mail module of Framework X.",
-  "source": "@site/docs/overview/mail.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/mail",
-  "permalink": "/docs/overview/mail",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/mail.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 8,
-  "frontMatter": {
-    "sidebar_position": 8,
-    "title": "Mail"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Super Charged Cache",
-    "permalink": "/docs/overview/cache"
-  },
-  "next": {
-    "title": "Error Handling",
-    "permalink": "/docs/overview/error-handling"
-  }
+    "unversionedId": "overview/mail",
+    "id": "overview/mail",
+    "title": "Mail",
+    "description": "Sending emails is a common task for web applications. In this section, we will learn how to send emails using the inbuilt mail module of Framework X.",
+    "source": "@site/docs/overview/mail.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/mail",
+    "permalink": "/docs/overview/mail",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/mail.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 8,
+    "frontMatter": {
+        "sidebar_position": 8,
+        "title": "Mail"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "Super Charged Cache",
+        "permalink": "/docs/overview/cache"
+    },
+    "next": {
+        "title": "Error Handling",
+        "permalink": "/docs/overview/error-handling"
+    }
 }

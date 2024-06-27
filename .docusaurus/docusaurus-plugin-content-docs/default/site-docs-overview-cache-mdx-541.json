@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/cache",
-  "id": "overview/cache",
-  "title": "Super Charged Cache",
-  "description": "By reducing the time it takes to access data, caching speeds up the performance of computers and applications. This is crucial for functions that require rapid data retrieval. In APIs, caching ensures that frequently visited URLs loads faster, providing a smoother experience for users.",
-  "source": "@site/docs/overview/cache.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/cache",
-  "permalink": "/docs/overview/cache",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/cache.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 7,
-  "frontMatter": {
-    "sidebar_position": 7,
-    "title": "Super Charged Cache"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Repository Pattern",
-    "permalink": "/docs/overview/repositories"
-  },
-  "next": {
-    "title": "Mail",
-    "permalink": "/docs/overview/mail"
-  }
+    "unversionedId": "overview/cache",
+    "id": "overview/cache",
+    "title": "Super Charged Cache",
+    "description": "By reducing the time it takes to access data, caching speeds up the performance of computers and applications. This is crucial for functions that require rapid data retrieval. In APIs, caching ensures that frequently visited URLs loads faster, providing a smoother experience for users.",
+    "source": "@site/docs/overview/cache.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/cache",
+    "permalink": "/docs/overview/cache",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/cache.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 7,
+    "frontMatter": {
+        "sidebar_position": 7,
+        "title": "Super Charged Cache"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "Repository Pattern",
+        "permalink": "/docs/overview/repositories"
+    },
+    "next": {
+        "title": "Mail",
+        "permalink": "/docs/overview/mail"
+    }
 }

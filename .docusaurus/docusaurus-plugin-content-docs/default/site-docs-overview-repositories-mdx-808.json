@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/repositories",
-  "id": "overview/repositories",
-  "title": "Repository Pattern",
-  "description": "The Repository Pattern is a design pattern commonly used in software development to separate the logic that retrieves data from a data store (such as a database) from the rest of the application's code. It provides a way to abstract and encapsulate the data access layer, making it easier to manage and maintain the codebase, improve testability, and promote a more structured and modular architecture.",
-  "source": "@site/docs/overview/repositories.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/repositories",
-  "permalink": "/docs/overview/repositories",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/repositories.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 6,
-  "frontMatter": {
-    "sidebar_position": 6,
-    "title": "Repository Pattern"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Dependencies",
-    "permalink": "/docs/overview/dependencies"
-  },
-  "next": {
-    "title": "Super Charged Cache",
-    "permalink": "/docs/overview/cache"
-  }
+    "unversionedId": "overview/repositories",
+    "id": "overview/repositories",
+    "title": "Repository Pattern",
+    "description": "The Repository Pattern is a design pattern commonly used in software development to separate the logic that retrieves data from a data store (such as a database) from the rest of the application's code. It provides a way to abstract and encapsulate the data access layer, making it easier to manage and maintain the codebase, improve testability, and promote a more structured and modular architecture.",
+    "source": "@site/docs/overview/repositories.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/repositories",
+    "permalink": "/docs/overview/repositories",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/repositories.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 6,
+    "frontMatter": {
+        "sidebar_position": 6,
+        "title": "Repository Pattern"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "Dependencies",
+        "permalink": "/docs/overview/dependencies"
+    },
+    "next": {
+        "title": "Super Charged Cache",
+        "permalink": "/docs/overview/cache"
+    }
 }

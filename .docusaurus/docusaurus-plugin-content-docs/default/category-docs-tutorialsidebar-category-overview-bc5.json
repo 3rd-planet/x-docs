@@ -1,16 +1,16 @@
 {
-  "title": "Overview",
-  "description": "Overview of the Framework",
-  "slug": "/category/overview",
-  "permalink": "/docs/category/overview",
-  "navigation": {
-    "previous": {
-      "title": "Introduction",
-      "permalink": "/docs/introduction"
-    },
-    "next": {
-      "title": "First Step",
-      "permalink": "/docs/overview/first-step"
+    "title": "Overview",
+    "description": "Overview of the Framework",
+    "slug": "/category/overview",
+    "permalink": "/docs/category/overview",
+    "navigation": {
+        "previous": {
+            "title": "Introduction",
+            "permalink": "/docs/introduction"
+        },
+        "next": {
+            "title": "First Step",
+            "permalink": "/docs/overview/first-step"
+        }
     }
-  }
 }

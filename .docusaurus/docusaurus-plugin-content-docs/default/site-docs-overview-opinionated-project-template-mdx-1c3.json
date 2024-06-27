@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/opinionated-project-template",
-  "id": "overview/opinionated-project-template",
-  "title": "Project Template",
-  "description": "Framework X is a meticulously designed solution to kickstart your project. With predefined best practices and structures. Embrace our expert recommendations or customize. Either way, you're set up for success, saving time and ensuring quality from the get-go",
-  "source": "@site/docs/overview/opinionated-project-template.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/opinionated-project-template",
-  "permalink": "/docs/overview/opinionated-project-template",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/opinionated-project-template.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 2,
-  "frontMatter": {
-    "sidebar_position": 2,
-    "title": "Project Template"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "First Step",
-    "permalink": "/docs/overview/first-step"
-  },
-  "next": {
-    "title": "Application",
-    "permalink": "/docs/overview/application"
-  }
+    "unversionedId": "overview/opinionated-project-template",
+    "id": "overview/opinionated-project-template",
+    "title": "Project Template",
+    "description": "Framework X is a meticulously designed solution to kickstart your project. With predefined best practices and structures. Embrace our expert recommendations or customize. Either way, you're set up for success, saving time and ensuring quality from the get-go",
+    "source": "@site/docs/overview/opinionated-project-template.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/opinionated-project-template",
+    "permalink": "/docs/overview/opinionated-project-template",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/opinionated-project-template.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 2,
+    "frontMatter": {
+        "sidebar_position": 2,
+        "title": "Project Template"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "First Step",
+        "permalink": "/docs/overview/first-step"
+    },
+    "next": {
+        "title": "Application",
+        "permalink": "/docs/overview/application"
+    }
 }

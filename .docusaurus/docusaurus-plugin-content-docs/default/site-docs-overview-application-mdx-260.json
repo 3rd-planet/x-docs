@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/application",
-  "id": "overview/application",
-  "title": "Application",
-  "description": "Framework X promotes modularity, as each component has a specific role and can be developed, tested, and maintained independently. This separation also enhances collaboration among developers working on different parts of the application. Additionally, Framework X is build on MVC, MVC supports flexibility, as changes in one component do not necessarily impact the others. This architecture is widely used in web development, desktop applications, and mobile apps due to its clear separation of responsibilities and its ability to accommodate evolving requirements and user interfaces.",
-  "source": "@site/docs/overview/application.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/application",
-  "permalink": "/docs/overview/application",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/application.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 3,
-  "frontMatter": {
-    "sidebar_position": 3,
-    "title": "Application"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Project Template",
-    "permalink": "/docs/overview/opinionated-project-template"
-  },
-  "next": {
-    "title": "Features",
-    "permalink": "/docs/overview/features"
-  }
+    "unversionedId": "overview/application",
+    "id": "overview/application",
+    "title": "Application",
+    "description": "Framework X promotes modularity, as each component has a specific role and can be developed, tested, and maintained independently. This separation also enhances collaboration among developers working on different parts of the application. Additionally, Framework X is build on MVC, MVC supports flexibility, as changes in one component do not necessarily impact the others. This architecture is widely used in web development, desktop applications, and mobile apps due to its clear separation of responsibilities and its ability to accommodate evolving requirements and user interfaces.",
+    "source": "@site/docs/overview/application.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/application",
+    "permalink": "/docs/overview/application",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/application.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 3,
+    "frontMatter": {
+        "sidebar_position": 3,
+        "title": "Application"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "Project Template",
+        "permalink": "/docs/overview/opinionated-project-template"
+    },
+    "next": {
+        "title": "Features",
+        "permalink": "/docs/overview/features"
+    }
 }

@@ -1,103 +1,103 @@
 {
-  "docusaurus-plugin-content-docs": {
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "introduction",
-          "docs": [
-            {
-              "id": "cli",
-              "path": "/docs/cli",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "deployment",
-              "path": "/docs/deployment",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "introduction",
-              "path": "/docs/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/application",
-              "path": "/docs/overview/application",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/cache",
-              "path": "/docs/overview/cache",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/dependencies",
-              "path": "/docs/overview/dependencies",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/error-handling",
-              "path": "/docs/overview/error-handling",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/features",
-              "path": "/docs/overview/features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/first-step",
-              "path": "/docs/overview/first-step",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/mail",
-              "path": "/docs/overview/mail",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/opinionated-project-template",
-              "path": "/docs/overview/opinionated-project-template",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/repositories",
-              "path": "/docs/overview/repositories",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "overview/test",
-              "path": "/docs/overview/test",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "roadmap",
-              "path": "/docs/roadmap",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/overview",
-              "path": "/docs/category/overview",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/docs/introduction",
-                "label": "introduction"
-              }
-            }
-          }
+    "docusaurus-plugin-content-docs": {
+        "default": {
+            "path": "/docs",
+            "versions": [
+                {
+                    "name": "current",
+                    "label": "Next",
+                    "isLast": true,
+                    "path": "/docs",
+                    "mainDocId": "introduction",
+                    "docs": [
+                        {
+                            "id": "cli",
+                            "path": "/docs/cli",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "deployment",
+                            "path": "/docs/deployment",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "introduction",
+                            "path": "/docs/introduction",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/application",
+                            "path": "/docs/overview/application",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/cache",
+                            "path": "/docs/overview/cache",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/dependencies",
+                            "path": "/docs/overview/dependencies",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/error-handling",
+                            "path": "/docs/overview/error-handling",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/features",
+                            "path": "/docs/overview/features",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/first-step",
+                            "path": "/docs/overview/first-step",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/mail",
+                            "path": "/docs/overview/mail",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/opinionated-project-template",
+                            "path": "/docs/overview/opinionated-project-template",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/repositories",
+                            "path": "/docs/overview/repositories",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "overview/test",
+                            "path": "/docs/overview/test",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "roadmap",
+                            "path": "/docs/roadmap",
+                            "sidebar": "tutorialSidebar"
+                        },
+                        {
+                            "id": "/category/overview",
+                            "path": "/docs/category/overview",
+                            "sidebar": "tutorialSidebar"
+                        }
+                    ],
+                    "draftIds": [],
+                    "sidebars": {
+                        "tutorialSidebar": {
+                            "link": {
+                                "path": "/docs/introduction",
+                                "label": "introduction"
+                            }
+                        }
+                    }
+                }
+            ],
+            "breadcrumbs": true
         }
-      ],
-      "breadcrumbs": true
     }
-  }
 }

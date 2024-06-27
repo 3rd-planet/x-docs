@@ -1,10 +1,10 @@
 {
-  "type": "mdx",
-  "permalink": "/contributors",
-  "source": "@site/src/pages/contributors.mdx",
-  "title": "Contributors",
-  "description": "Framework X relies on a collaborative community of developers and enthusiasts who actively contribute to its development, improvement, and maintenance. This collective effort fosters innovation, ensures continuous updates, and creates a robust ecosystem around the framework, making it a dynamic and thriving platform for various applications and solutions.",
-  "frontMatter": {
-    "title": "Contributors"
-  }
+    "type": "mdx",
+    "permalink": "/contributors",
+    "source": "@site/src/pages/contributors.mdx",
+    "title": "Contributors",
+    "description": "Framework X relies on a collaborative community of developers and enthusiasts who actively contribute to its development, improvement, and maintenance. This collective effort fosters innovation, ensures continuous updates, and creates a robust ecosystem around the framework, making it a dynamic and thriving platform for various applications and solutions.",
+    "frontMatter": {
+        "title": "Contributors"
+    }
 }

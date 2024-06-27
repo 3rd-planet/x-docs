@@ -1,28 +1,28 @@
 {
-  "unversionedId": "overview/dependencies",
-  "id": "overview/dependencies",
-  "title": "Dependencies",
-  "description": "You are free to use any Node Package Manager available to you, however, we recommend using npm as it is the package manager we use internally. Some other popular package managers are yarn and pnpm.",
-  "source": "@site/docs/overview/dependencies.mdx",
-  "sourceDirName": "overview",
-  "slug": "/overview/dependencies",
-  "permalink": "/docs/overview/dependencies",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/dependencies.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 5,
-  "frontMatter": {
-    "sidebar_position": 5,
-    "title": "Dependencies"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Features",
-    "permalink": "/docs/overview/features"
-  },
-  "next": {
-    "title": "Repository Pattern",
-    "permalink": "/docs/overview/repositories"
-  }
+    "unversionedId": "overview/dependencies",
+    "id": "overview/dependencies",
+    "title": "Dependencies",
+    "description": "You are free to use any Node Package Manager available to you, however, we recommend using npm as it is the package manager we use internally. Some other popular package managers are yarn and pnpm.",
+    "source": "@site/docs/overview/dependencies.mdx",
+    "sourceDirName": "overview",
+    "slug": "/overview/dependencies",
+    "permalink": "/docs/overview/dependencies",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/overview/dependencies.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 5,
+    "frontMatter": {
+        "sidebar_position": 5,
+        "title": "Dependencies"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "Features",
+        "permalink": "/docs/overview/features"
+    },
+    "next": {
+        "title": "Repository Pattern",
+        "permalink": "/docs/overview/repositories"
+    }
 }

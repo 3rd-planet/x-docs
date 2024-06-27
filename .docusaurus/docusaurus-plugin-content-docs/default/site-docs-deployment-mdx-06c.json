@@ -1,28 +1,28 @@
 {
-  "unversionedId": "deployment",
-  "id": "deployment",
-  "title": "Deployment",
-  "description": "you can use the following services to deploy your application:",
-  "source": "@site/docs/deployment.mdx",
-  "sourceDirName": ".",
-  "slug": "/deployment",
-  "permalink": "/docs/deployment",
-  "draft": false,
-  "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/deployment.mdx",
-  "tags": [],
-  "version": "current",
-  "sidebarPosition": 4,
-  "frontMatter": {
-    "sidebar_position": 4,
-    "title": "Deployment"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "CLI",
-    "permalink": "/docs/cli"
-  },
-  "next": {
-    "title": "Roadmap",
-    "permalink": "/docs/roadmap"
-  }
+    "unversionedId": "deployment",
+    "id": "deployment",
+    "title": "Deployment",
+    "description": "you can use the following services to deploy your application:",
+    "source": "@site/docs/deployment.mdx",
+    "sourceDirName": ".",
+    "slug": "/deployment",
+    "permalink": "/docs/deployment",
+    "draft": false,
+    "editUrl": "https://github.com/3rd-planet/x-docs/blob/main/docs/deployment.mdx",
+    "tags": [],
+    "version": "current",
+    "sidebarPosition": 4,
+    "frontMatter": {
+        "sidebar_position": 4,
+        "title": "Deployment"
+    },
+    "sidebar": "tutorialSidebar",
+    "previous": {
+        "title": "CLI",
+        "permalink": "/docs/cli"
+    },
+    "next": {
+        "title": "Roadmap",
+        "permalink": "/docs/roadmap"
+    }
 }

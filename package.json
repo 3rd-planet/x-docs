@@ -15,6 +15,7 @@
         "lint": "prettier --write ."
     },
     "dependencies": {
+        "@dipakparmar/docusaurus-plugin-umami": "^2.1.5",
         "@docusaurus/core": "2.4.1",
         "@docusaurus/preset-classic": "2.4.1",
         "@docusaurus/theme-search-algolia": "^2.4.1",

@@ -35,6 +35,7 @@
     width: 25%;
 }
 
-p, li {
+p,
+li {
     font-size: 1.2rem;
 }
